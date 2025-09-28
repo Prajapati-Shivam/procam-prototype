@@ -4,7 +4,6 @@ import Layout from './components/Layout';
 import GroupLeaderRegistration from './components/GroupLeaderRegistration';
 import MemberJoin from './components/MemberJoin';
 import ManagingDashboard from './components/ManagingDashboard';
-import AdminPanel from './components/AdminPanel';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
           <Route index element={<GroupLeaderRegistration />} />
           <Route path="join" element={<MemberJoin />} />
           <Route path="dashboard" element={<ManagingDashboard />} />
-          <Route path="admin" element={<AdminPanel />} />
         </Route>
       </Routes>
     </Router>
